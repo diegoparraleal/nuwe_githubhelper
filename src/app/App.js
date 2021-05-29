@@ -1,4 +1,4 @@
-import { GlobalStyles } from 'globalStyles';
+import { GlobalStyles } from '../globalStyles';
 import React from 'react';
 import MainContainer from './containers/main/main';
 

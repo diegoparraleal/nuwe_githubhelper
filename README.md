@@ -1,8 +1,7 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 # Github helper app
+
+Para ver esta aplicacion funcionando por favor ir a: 
 
 Esta aplicacion esta hecha en React y contiene los siguientes componentes principales
 
