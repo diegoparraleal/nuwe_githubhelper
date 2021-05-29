@@ -1,5 +1,5 @@
 import { Link, Paper, Table, TableBody, TableCell, TableContainer, TableHead, TableRow } from '@material-ui/core';
-import { gitHubService } from 'app/services/github.service';
+import { gitHubService } from '../../services/github.service';
 import React, { useEffect, useState } from 'react';
 import styled from 'styled-components';
 

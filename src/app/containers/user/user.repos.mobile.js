@@ -1,5 +1,5 @@
 import { Grid, Link, Paper, Typography } from '@material-ui/core';
-import { gitHubService } from 'app/services/github.service';
+import { gitHubService } from '../../services/github.service';
 import React, { useEffect, useState } from 'react';
 import styled from 'styled-components';
 
