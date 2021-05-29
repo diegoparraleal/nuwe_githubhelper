@@ -40,7 +40,7 @@ function UserContainer() {
                 </Grid>
             </Grid>
             {user && 
-                <>
+                <div data-testid="userCard">
                     <UserCard user={user} />
                     { !isMobile &&
                         <UserRepos userName={userName} />
@@ -48,7 +48,7 @@ function UserContainer() {
                     { isMobile  &&
                         <UserReposMobile userName={userName} />
                     }
-                </>
+                </div>
             }
             {notFound &&
                 <Typography variant="h4" className="gh-notFound" align="center">User not found </Typography>
