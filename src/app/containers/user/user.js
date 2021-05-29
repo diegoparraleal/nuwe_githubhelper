@@ -1,6 +1,6 @@
 import { Button, Grid, TextField, Typography } from '@material-ui/core';
 import { useWindowWidth } from '@react-hook/window-size';
-import { gitHubService } from 'app/services/github.service';
+import { gitHubService } from '../../services/github.service';
 import React, { useState } from 'react';
 import styled from 'styled-components';
 import UserCard from './user.card';
