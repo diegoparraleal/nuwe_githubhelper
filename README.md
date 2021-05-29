@@ -4,6 +4,22 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 # Github helper app
 
+Esta aplicacion esta hecha en React y contiene los siguientes componentes principales
+
+- Material UI
+- React Router
+- Octonode (para acceder a github)
+- Styled Components
+
+La aplicacion tiene diferentes vistas:
+
+- Login: Permite ingresar al usuario (Tiene validaciones basicas de que el usuario y password esten llenos)
+- Register: Permite crear un usuario nuevo (Tiene validaciones basicas de que el usuario y password esten llenos y que los passwords sean iguales)
+- User: Permite buscar un usuario en GitHub, si el usuario no existe, lo indica, en el caso de que exista pinta un card con el usuario y una tabla con los diferentes repos.
+
+Esta aplicacion es responsive y muestra una vista de cards de repos cuando se ve en modo mobile
+
+
 ## Available Scripts
 
 In the project directory, you can run:

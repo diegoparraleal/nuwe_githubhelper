@@ -1,6 +1,6 @@
 import github from 'octonode';
 
-const GITHUB_TOKEN = "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";
+const GITHUB_TOKEN = "";
 const client = github.client(GITHUB_TOKEN);
 
 export const gitHubService = {
